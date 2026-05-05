@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE PROJECT | Director's Log</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- CUSTOM CURSOR -->
+    <div class="cursor" id="custom-cursor"></div>
+
+    <!-- MARQUEE HEADER START -->
+    <header class="marquee-header">
+        <div class="marquee-content">
+            <span>NOW SHOWING // RAW CUT // NOW SHOWING // RAW CUT // NOW SHOWING // RAW CUT // NOW SHOWING // RAW CUT // </span>
+            <span>NOW SHOWING // RAW CUT // NOW SHOWING // RAW CUT // NOW SHOWING // RAW CUT // NOW SHOWING // RAW CUT // </span>
+        </div>
+    </header>
+    <!-- MARQUEE HEADER END -->
+
+    <main>
+        <!-- HERO THEATER SECTION START -->
+        <section class="theater-section">
+            <div class="theater-header">
+                <h1>THE <br><span class="highlight-blue">PROJECT</span></h1>
+                <div class="theater-meta">
+                    <p>STATUS: <span class="highlight-pink">IN PROGRESS</span></p>
+                    <p>FORMAT: DIGITAL RAW</p>
+                </div>
+            </div>
+
+            <div class="video-wrapper">
+                <div class="brutal-screen">
+                    <!-- USER MEDIA: Main Feature Video -->
+                    <video id="hero-vid" autoplay muted loop playsinline>
+                        <source src="https://pub-97f5bb5aae4143d9b9879547fc5d1be8.r2.dev/users/df4fa431-2015-4b34-a12e-cd77c6b6e4c0/bc804d71-7897-4f60-9c96-194f166a1286.mov" type="video/quicktime">
+                        <!-- Fallback message -->
+                        <p>Your browser does not support HTML5 video.</p>
+                    </video>
+                    <button id="unmute-btn" class="brutal-btn" aria-label="Toggle sound">UNMUTE [ M ]</button>
+                </div>
+            </div>
+        </section>
+        <!-- HERO THEATER SECTION END -->
+
+        <!-- BLOG / UPDATES SECTION START -->
+        <section class="blog-section">
+            <div class="section-title-wrap">
+                <h2>DIRECTOR'S <span class="highlight-green">LOG</span></h2>
+            </div>
+            
+            <div class="blog-grid">
+                <!-- ARTICLE 1 -->
+                <article class="brutal-card reveal-item">
+                    <div class="card-media">
+                        <!-- IMAGE PLACEHOLDER: Swap with user's own image -> assets/img/log-01.jpg -->
+                        <div class="placeholder-box">
+                            <span>[ INSERT IMAGE HERE ]</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-meta">
+                            <time datetime="2023-10-24">LOG .01</time>
+                            <span class="tag">ON SET</span>
+                        </div>
+                        <h3>TESTING THE RIG</h3>
+                        <p>Pushing the camera to its absolute limits. The lighting was completely unhinged but exactly what this scene demanded. Capturing raw, unfiltered motion.</p>
+                        <a href="#" class="read-more">FULL ENTRY &rarr;</a>
+                    </div>
+                </article>
+
+                <!-- ARTICLE 2 -->
+                <article class="brutal-card card-alt reveal-item">
+                    <div class="card-media">
+                        <!-- IMAGE PLACEHOLDER: Swap with user's own image -> assets/img/log-02.jpg -->
+                        <div class="placeholder-box">
+                            <span>[ INSERT IMAGE HERE ]</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-meta">
+                            <time datetime="2023-10-28">LOG .02</time>
+                            <span class="tag">POST-PROD</span>
+                        </div>
+                        <h3>LATE NIGHT EDITS</h3>
+                        <p>Staring at timelines until the frames blur together. Decided to keep the glitchy transitions—they add to the frantic rhythm of the piece. Audio mix is next.</p>
+                        <a href="#" class="read-more">FULL ENTRY &rarr;</a>
+                    </div>
+                </article>
+
+                <!-- ARTICLE 3 -->
+                <article class="brutal-card reveal-item">
+                    <div class="card-media">
+                        <!-- IMAGE PLACEHOLDER: Swap with user's own image -> assets/img/log-03.jpg -->
+                        <div class="placeholder-box">
+                            <span>[ INSERT IMAGE HERE ]</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-meta">
+                            <time datetime="2023-11-02">LOG .03</time>
+                            <span class="tag">SCOUTING</span>
+                        </div>
+                        <h3>ABANDONED SPACES</h3>
+                        <p>Found this incredible concrete structure on the edge of town. The acoustics inside are terrifying in the best way possible. Setting up for the final act here.</p>
+                        <a href="#" class="read-more">FULL ENTRY &rarr;</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- BLOG / UPDATES SECTION END -->
+    </main>
+
+    <!-- FOOTER START -->
+    <footer class="brutal-footer">
+        <div class="footer-content">
+            <h2>END OF TRANSMISSION</h2>
+            <p>&copy; 2024 CREATOR // ALL RIGHTS RESERVED // DO NOT STEAL</p>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>
